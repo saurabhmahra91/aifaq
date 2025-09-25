@@ -3,7 +3,7 @@ name = "aifaq"
 version = "0.1.0"
 description = "AI-Powered FAQ Assistant"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "litellm>=1.77.4",
     "plotly>=6.3.0",
