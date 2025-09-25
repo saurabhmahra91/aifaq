@@ -1,0 +1,17 @@
+[project]
+name = "aifaq"
+version = "0.1.0"
+description = "AI-Powered FAQ Assistant"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "litellm>=1.77.4",
+    "plotly>=6.3.0",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.50.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.13.1",
+]
